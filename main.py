@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 from listen import listen
-from speak import speak
+from gspeak import speak
 
 def main():
     load_dotenv()
@@ -15,7 +15,11 @@ def main():
     messages = [
         {
             "role": "system",
-            "content": "You are an AI Voice Assistant. So keep everthing short, clean and simple."
+            "content": '''"You are a highly efficient AI Voice Assistant. "
+            "Respond in a clear, concise, and natural tone. "
+            "Keep answers brief and to the point, avoiding unnecessary details. "
+            "If clarification is needed, ask short follow-up questions. "
+            "Prioritize accuracy and relevance in your responses."'''
         }
     ]
 
