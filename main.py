@@ -1,8 +1,8 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
-from listen import listen
-from gspeak import speak
+from utils.listen import listen
+from utils.gspeak import speak
 
 def main():
     load_dotenv()
