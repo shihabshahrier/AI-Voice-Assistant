@@ -39,7 +39,7 @@ def main():
 
         try:
             response = client.chat.completions.create(
-                model="meta-llama/Meta-Llama-3.1-70B-Instruct",
+                model="deepseek-ai/DeepSeek-V3",
                 max_tokens=512,
                 temperature=0.6,
                 top_p=0.95,
