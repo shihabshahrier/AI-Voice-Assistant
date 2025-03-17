@@ -32,6 +32,8 @@ Run the main script to start the voice assistant:
 python main.py
 ```
 
+To start interacting with the voice assistant, say "gandu".
+
 ## Project Structure
 - `main.py`: Entry point for the application.
 - `utils/`
